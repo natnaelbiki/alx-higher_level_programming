@@ -6,7 +6,7 @@
  * @number: number to insert
  * Return: inserted node
  */
-listint_t 8insert_node(listint_t **head, int number)
+listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *node = *head, *new = malloc(sizeof(listint_t));
 
