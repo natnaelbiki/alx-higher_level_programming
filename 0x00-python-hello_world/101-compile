@@ -1,0 +1,5 @@
+#!/bin/bash
+python3 -m py_compile $PYFILE
+mv __pychache__/*.pyc ./4PYFILE'c'
+chmod +x $PYFILE'c'
+rmdir __pycache__
